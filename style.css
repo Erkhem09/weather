@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6C3483;
+    height: 100vh;
+}
+.weather{
+    background-color: #fff;
+    padding: 20px;
+    width: 500px;
+    border-radius: 15px;
+}
+.weather img{ 
+    width: 250px;
+}
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+    body{
+        background-color: brown;
+    }
+    .weather{
+        width: 250px;
+    }
+}
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body{
+        background-color: cyan;
+    }
+
+}
+/* Small Desktops */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+
+}
+/* Medium Desktops */
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+
+}
+/* Large Desktops */
+@media only screen and (min-width: 1600px) {
+    body{
+        background-color: green;
+    }
+}
